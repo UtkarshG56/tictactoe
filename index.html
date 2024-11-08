@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hub</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #00BCD4;
+            color: #fff;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2C3E50;
+            font-size: 3em;
+            margin-top: 50px;
+        }
+
+        .game-options {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .game-button {
+            padding: 20px 40px;
+            font-size: 1.2em;
+            color: #00000;
+            background-color: #FFEB3B;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .game-button:hover {
+            background-color: #ff7043;
+        }
+
+        .game-button:focus {
+            outline: none;
+        }
+
+        /* Tic Tac Toe, Whack a Mole, Rock Paper Scissors Themes */
+        .game-card {
+            padding: 30px;
+            background-color: #00FFFF;
+            border-radius: 20px;
+            box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+            max-width: 400px;
+            margin: 50px auto;
+        }
+
+        .game-card h2 {
+            font-size: 2em;
+            color: #ff9800;
+        }
+
+      
+
+       </style>
+</head>
+<body>
+    <h1>Welcome to the Game Hub!!</h1>
+    <div class="game-options">
+        <a href="C:\Users\utkar\Documents\Major Project\project\Games\tictac.html"><button class="game-button">Tic Tac Toe</button></a>
+<a href="C:\Users\utkar\Documents\Major Project\project\Games\whack.html"><button class="game-button">Whack a Mole</button></a>
+<a href="C:\Users\utkar\Documents\Major Project\project\Games\rps.html"><button class="game-button">Rock Paper Scissors</button></a>
+    </div>
+
+    <!-- Tic Tac Toe Game -->
+    <div id="tic-tac-toe" class="game-card" style="display: none;">
+        <h2>Tic Tac Toe</h2>
+    </div>
+
+    <!-- Whack a Mole Game -->
+    <div id="whack-a-mole" class="game-card" style="display: none;">
+        <h2>Whack a Mole</h2>
+    </div>
+
+    <!-- Rock Paper Scissors -->
+    <div id="rock-paper-scissors" class="game-card" style="display: none;">
+        <h2>Rock Paper Scissors</h2>
+    </div>
